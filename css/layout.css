@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -325,86 +325,101 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+.javascript {
+   width: 70%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
 .html5 {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.reactjs {
+   width: 50%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.reactnative {
+   width: 30%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.vuejs {
+   width: 15%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
 }
+@-moz-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+@-moz-keyframes reactnative {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+}
+@-moz-keyframes vuejs {
+   0%   { width: 0px;  }
+   100% { width: 15%;  }
+}
+
+@-webkit-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-webkit-keyframes jquery {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ 
+ @-webkit-keyframes javascript {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+ }
+ @-webkit-keyframes reactjs {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+ }
+ @-webkit-keyframes reactnative {
+    0%   { width: 0px;  }
+    100% { width: 30%;  }
+ }
+ @-webkit-keyframes vuejs {
+    0%   { width: 0px;  }
+    100% { width: 15%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
