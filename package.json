@@ -6,8 +6,11 @@
   "dependencies": {
     "antd": "^3.26.6",
     "atd": "^0.2.0",
+    "primeicons": "^2.0.0",
+    "primereact": "^3.4.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-images-viewer": "^1.6.2",
     "react-scripts": "2.1.1"
   },
   "scripts": {
