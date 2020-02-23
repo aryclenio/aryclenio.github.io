@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "aryclenio.github.io/precache-manifest.ca457a399e2004d63831c87df92a5402.js"
+  "aryclenio.github.io/precache-manifest.f3ea2d2b0b009cf63c8014ad8f8805ab.js"
 );
 
 workbox.clientsClaim();
