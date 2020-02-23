@@ -56,10 +56,16 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Superintendência de Informática",
+      CompanyName: "Autoforce",
       specialization: "Front-End Developer",
       MonthOfLeaving: "Today",
       YearOfLeaving: ""
+    },
+    {
+      CompanyName: "Superintendência de Informática",
+      specialization: "Front-End Developer",
+      MonthOfLeaving: "Feb",
+      YearOfLeaving: "2020"
     }
   ],
   skillsDescription: "Check my level of experience",
@@ -86,7 +92,7 @@ let resumeData = {
       skillname: "Vuejs"
     }
   ],
-  portfolio: [
+  react: [
     {
       name: "Repository Finder",
       description:
@@ -95,12 +101,14 @@ let resumeData = {
       repo: "https://github.com/aryclenio/Repository-Finder"
     },
     {
-      name: "Food Software",
+      name: "Ary Shoes",
       description:
-        "A web system to provide management of a food business company. It was made using the Pug.js and Sass precompilers and includes a Node.js REST API combined with SQL 5.8",
-      imgurl: "images/portfolio/food.png",
-      repo: "https://github.com/aryclenio/FoodSoftware"
-    },
+        "AryShoes is an SPA to simulate a fake shoes store with cart funcionality to handdle the products, including API connection, stock verification and final value operations.",
+      imgurl: "images/portfolio/aryshoes.png",
+      repo: "https://github.com/aryclenio/Repository-Finder"
+    }
+  ],
+  reactnative: [
     {
       name: "Minesweeper",
       description:
@@ -116,7 +124,33 @@ let resumeData = {
       repo: "https://github.com/aryclenio/Minesweeper"
     }
   ],
-  portfolio2: [
+  pug: [
+    {
+      name: "Food Software",
+      description:
+        "A web system to provide management of a food business company. It was made using the Pug.js and Sass precompilers and includes a Node.js REST API combined with SQL 5.8",
+      imgurl: "images/portfolio/food.png",
+      repo: "https://github.com/aryclenio/FoodSoftware",
+      disabled: false
+    },
+    {
+      name: "SIGCOMPRAS - PAC",
+      description:
+        "UFRN financial system module related to the institution's annual demand contracting plan.",
+      imgurl: "images/portfolio/sigcompras.png",
+      repo: "",
+      disabled: true
+    },
+    {
+      name: "IDBOX",
+      description:
+        "A web system for people registration in comunication with an embeeded system (ESP8266) and a Google firebase connection.",
+      imgurl: "images/portfolio/idbox.png",
+      repo: "https://github.com/aryclenio/IDbox",
+      disabled: false
+    }
+  ],
+  other: [
     {
       name: "Sculptor",
       description:
@@ -127,7 +161,7 @@ let resumeData = {
     {
       name: "4-bit Calculator",
       description:
-        "A bit calculator, implemented in VDHL that provides 4 bits sum, subtraction, inversion, major and minor verification. The result is shown in a 7 segment display on a FPGA board. This code was tested in Altera Quartus II.",
+        "A bit calculator, implemented in VDHL that provides 4 bits sum, subtraction, inversion, major and minor verification. The result is shown in a 7 segment display on a FPGA board.",
       imgurl: "images/portfolio/fpga.jpg"
     }
   ],
