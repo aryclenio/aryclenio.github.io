@@ -6,20 +6,20 @@ export default class Porfolio extends Component {
 
   showModal = () => {
     this.setState({
-      visible: true
+      visible: true,
     });
   };
-  handleOk = e => {
+  handleOk = (e) => {
     console.log(e);
     this.setState({
-      visible: false
+      visible: false,
     });
   };
 
-  handleCancel = e => {
+  handleCancel = (e) => {
     console.log(e);
     this.setState({
-      visible: false
+      visible: false,
     });
   };
   render() {
@@ -43,7 +43,7 @@ export default class Porfolio extends Component {
           >
             <Row type="flex" justify="center">
               {resumeData.reactnative &&
-                resumeData.reactnative.map(item => {
+                resumeData.reactnative.map((item) => {
                   return (
                     <Col xs={24} sm={24} md={12} lg={8} xl={6} key={item.repo}>
                       <Card
@@ -58,7 +58,7 @@ export default class Porfolio extends Component {
                             target="blank"
                           >
                             Repository
-                          </Button>
+                          </Button>,
                         ]}
                       >
                         <Meta
@@ -83,7 +83,7 @@ export default class Porfolio extends Component {
           >
             <Row type="flex" justify="center">
               {resumeData.react &&
-                resumeData.react.map(item => {
+                resumeData.react.map((item) => {
                   return (
                     <Col xs={24} sm={24} md={12} lg={8} xl={6} key={item.repo}>
                       <Card
@@ -98,7 +98,7 @@ export default class Porfolio extends Component {
                             target="blank"
                           >
                             Repository
-                          </Button>
+                          </Button>,
                         ]}
                       >
                         <Meta
@@ -123,7 +123,7 @@ export default class Porfolio extends Component {
           >
             <Row type="flex" justify="center">
               {resumeData.pug &&
-                resumeData.pug.map(item => {
+                resumeData.pug.map((item) => {
                   return (
                     <Col xs={24} sm={24} md={12} lg={8} xl={6} key={item.repo}>
                       <Card
@@ -139,7 +139,54 @@ export default class Porfolio extends Component {
                             disabled={item.disabled}
                           >
                             Repository
-                          </Button>
+                          </Button>,
+                        ]}
+                      >
+                        <Meta
+                          avatar={<Avatar src="images/profile.jpeg" />}
+                          title={item.name}
+                          description={item.description}
+                        />
+                      </Card>
+                    </Col>
+                  );
+                })}
+            </Row>
+          </TabPane>
+          <TabPane
+            tab={
+              <span>
+                <Icon type="experiment" />
+                BACK-END
+              </span>
+            }
+            key="tab4"
+          >
+            <Row type="flex" justify="center">
+              {resumeData.backend &&
+                resumeData.backend.map((item) => {
+                  return (
+                    <Col
+                      xs={24}
+                      sm={24}
+                      md={12}
+                      lg={8}
+                      xl={6}
+                      key={item.imgurl}
+                    >
+                      <Card
+                        style={{ width: 300, marginBottom: 20 }}
+                        bodyStyle={{ height: 200 }}
+                        cover={<img alt="example" src={item.imgurl} />}
+                        actions={[
+                          <Button
+                            type="dashed"
+                            icon="github"
+                            href={item.repo}
+                            target="blank"
+                          >
+                            Repository
+                          </Button>,
                         ]}
                       >
                         <Meta
@@ -164,7 +211,7 @@ export default class Porfolio extends Component {
           >
             <Row type="flex" justify="center">
               {resumeData.other &&
-                resumeData.other.map(item => {
+                resumeData.other.map((item) => {
                   return (
                     <Col
                       xs={24}
@@ -186,7 +233,7 @@ export default class Porfolio extends Component {
                             target="blank"
                           >
                             Repository
-                          </Button>
+                          </Button>,
                         ]}
                       >
                         <Meta
