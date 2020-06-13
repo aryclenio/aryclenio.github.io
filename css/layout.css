@@ -378,25 +378,25 @@ ul#nav li.current a {
   -moz-animation: html5 2s ease;
   -webkit-animation: html5 2s ease;
 }
-.jquery {
+.nodejs {
   width: 80%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 .reactjs {
   width: 50%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 .reactnative {
   width: 30%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 .vuejs {
   width: 15%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
 }
 
 @-moz-keyframes css {
@@ -415,7 +415,7 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes nodejs {
   0% {
     width: 0px;
   }
@@ -473,7 +473,7 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes nodejs {
   0% {
     width: 0px;
   }
