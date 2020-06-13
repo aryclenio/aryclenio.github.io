@@ -80,7 +80,7 @@ let resumeData = {
       skillname: "Javascript",
     },
     {
-      skillname: "JQuery",
+      skillname: "NodeJS",
     },
     {
       skillname: "ReactJS",
@@ -119,7 +119,7 @@ let resumeData = {
       description:
         "Ecoleta is a software for creating and viewing collection points around the world. The idea is that everyone can find a place closer to where they can dispose of materials that harm the environment.",
       imgurl: "images/portfolio/ecoleta.png",
-      repo: "https://github.com/aryclenio/Ecoleta/web",
+      repo: "https://github.com/aryclenio/Ecoleta/tree/master/web",
     },
   ],
   reactnative: [
@@ -135,7 +135,7 @@ let resumeData = {
       description:
         "Ecoleta is a software for creating and viewing collection points around the world. The idea is that everyone can find a place closer to where they can dispose of materials that harm the environment.",
       imgurl: "images/portfolio/ecoleta.png",
-      repo: "https://github.com/aryclenio/Ecoleta/mobile",
+      repo: "https://github.com/aryclenio/Ecoleta/tree/master/mobile",
     },
     {
       name: "Minesweeper",
@@ -199,7 +199,7 @@ let resumeData = {
       description:
         "Ecoleta is a software for creating and viewing collection points around the world. The idea is that everyone can find a place closer to where they can dispose of materials that harm the environment.",
       imgurl: "images/portfolio/tsnode.png",
-      repo: "https://github.com/aryclenio/Ecoleta/server",
+      repo: "https://github.com/aryclenio/Ecoleta/tree/master/server",
     },
     {
       name: "Food Software",

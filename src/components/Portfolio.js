@@ -35,15 +35,15 @@ export default class Porfolio extends Component {
           <TabPane
             tab={
               <span>
-                <Icon type="android" />
-                REACT NATIVE
+                <Icon type="radar-chart" />
+                REACT.JS
               </span>
             }
             key="tab1"
           >
             <Row type="flex" justify="center">
-              {resumeData.reactnative &&
-                resumeData.reactnative.map((item) => {
+              {resumeData.react &&
+                resumeData.react.map((item) => {
                   return (
                     <Col xs={24} sm={24} md={12} lg={8} xl={6} key={item.repo}>
                       <Card
@@ -75,15 +75,15 @@ export default class Porfolio extends Component {
           <TabPane
             tab={
               <span>
-                <Icon type="radar-chart" />
-                REACT.JS
+                <Icon type="android" />
+                REACT NATIVE
               </span>
             }
             key="tab2"
           >
             <Row type="flex" justify="center">
-              {resumeData.react &&
-                resumeData.react.map((item) => {
+              {resumeData.reactnative &&
+                resumeData.reactnative.map((item) => {
                   return (
                     <Col xs={24} sm={24} md={12} lg={8} xl={6} key={item.repo}>
                       <Card
@@ -184,6 +184,7 @@ export default class Porfolio extends Component {
                             icon="github"
                             href={item.repo}
                             target="blank"
+                            disabled={item.disabled}
                           >
                             Repository
                           </Button>,
@@ -207,7 +208,7 @@ export default class Porfolio extends Component {
                 OTHER LANGUAGES
               </span>
             }
-            key="tab4"
+            key="tab5"
           >
             <Row type="flex" justify="center">
               {resumeData.other &&
