@@ -10,6 +10,7 @@
     "primereact": "^3.4.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-icons": "^3.10.0",
     "react-images-viewer": "^1.6.2",
     "react-scripts": "2.1.1"
   },

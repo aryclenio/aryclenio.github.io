@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import { FaDev } from "react-icons/fa";
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -40,7 +41,7 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
-                <a href="https://www.google.com">VIEW IN PT-BR</a>
+                <a href="https://aryclenio.github.io/ptBR/">VIEW IN PT-BR</a>
               </li>
             </ul>
           </nav>
@@ -54,7 +55,7 @@ export default class Header extends Component {
               <hr />
               <ul className="social">
                 {resumeData.socialLinks &&
-                  resumeData.socialLinks.map(item => {
+                  resumeData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
                         <a
@@ -62,18 +63,27 @@ export default class Header extends Component {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <i className={item.className}></i>
+                          <i className={item.className} />
                         </a>
                       </li>
                     );
                   })}
+                <li>
+                  <a
+                    href="https://dev.to/aryclenio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaDev style={{ "margin-bottom": "-4px" }} />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
 
           <p className="scrolldown">
             <a className="smoothscroll" href="#about">
-              <i className="icon-down-circle"></i>
+              <i className="icon-down-circle" />
             </a>
           </p>
         </header>
